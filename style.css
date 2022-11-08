@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+        
+}
+body {
+        background-color: green;
+        font-family: 'PT Sans', sans-serif;
+}
+a:active{
+        color: dodgerblue;
+}
+a:visited{
+        color: blue;
+}
+a:hover{
+        color: red;
+}
+ .nav{
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5) ;
+        background-color: white;
+}
+.nav .proj-name{
+        font-size: 18px;
+        font-weight: bold;
+        color: darkorange;
+        margin-left: 5px;
+        line-height: 50px;
+}
+.nav ul{
+        display: inline-flex;
+        float: right;
+        margin-right: 20px;
+        line-height: 50px;
+}
+.nav ul li{
+        margin-left: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+}
+section{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 100vh;
+}
+.position{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 150px 0;
+        
+}
+.colorName{
+        height: 50px;
+        width: 280px;
+        background-color: black;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+        margin: 10px;
+        
+        
+}
+.colorName h3{
+        color: white;
+        line-height: 50px;
+        float: left;
+        margin-left: 10px;
+}
+.colorName span{
+        color: darkorange;
+        line-height: 50px;
+        font-size: 18px;
+        font-weight: bold;
+}
+.color-btn{
+        width: 100px;
+        padding: 8px;
+        justify-self: center;
+        border-radius: 8px;
+        border: 2px solid black;
+        color: black;
+        background-color: white;
+        font-size: 18px;
+        font-weight: lighter;
+        transition: 0.1s ease;
+}
+.color-btn:hover{
+        background-color: black;
+        color: white;
+}
